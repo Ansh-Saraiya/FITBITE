@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fitbite</title>
+</head>
+<link rel="stylesheet" href="css/style.css">
+
+<style>
+    body{
+        color: white;
+        margin: 0px;
+        padding: 0px;
+        background: url('img/diet-695723_1920.jpg');
+    }
+    .left{
+        display: inline-block;
+        position: absolute;
+        left: 34px;
+        top: 20px;
+    }
+    .centre{
+        display: block;
+        width: 40%;
+        margin: 12px auto;
+    }
+    .right{
+        display: inline-block;
+        position: absolute;
+        right: 34px;
+        top: 20px;
+    }
+    .navbar{
+        display: inline-block;
+    }
+    .navbar li{
+        display: inline-block;
+        font-size: 25px;
+        font-family: 'Times New Roman', Times, serif;
+    }
+    .navbar li a{
+        color: white;
+        text-decoration: none;
+        padding: 34px 23px;
+    }
+    .navbar li a:hover, a:active{
+        color: rgb(137, 127, 127);
+        text-decoration: underline;
+    }
+    .left img{
+        filter: invert(100%);
+        width: 45px;
+    }
+    .left div{
+        font-size: 20px;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+    }
+    .btn{
+        margin: 0px 10px;
+        background-color: transparent;
+        color: white;
+        padding: 4px 14px;
+        border: solid grey;
+        border-radius: 10px;
+        font-size: 18px;
+        cursor: pointer;
+    }
+
+</style>
+
+<body>
+    <header class="header">
+        <div class="left">
+            <img src="img/man-40739.png" alt="">
+            <div>
+                FitBite
+            </div>
+        </div>
+        <div class="centre">
+            <ul class="navbar">
+                <li><a href = "#">Home</a></li>
+                <li><a href = "#">Order</a></li>
+                <li><a href = "#">Calorie Calculator</a></li>
+                <li><a href = "#">About Us</a></li>
+            </ul>
+        </div>
+        <div class="right">
+            <button class="btn">Account</button>
+        </div>
+    </header>
+</body>
+</html>
